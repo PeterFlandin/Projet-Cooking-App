@@ -25,7 +25,7 @@ button {
   background-color: rgb(236, 189, 101);
   margin-left: 4px;
 }
-button:hover{
+button:hover {
   height: 25px;
 }
 
@@ -34,21 +34,18 @@ button:hover{
   margin: 30px;
 }
 
-
 input {
   height: 30px;
-  transition: 5s;
+  border-radius: 5px;
+  transition: 2s;
 }
 
-input:hover{
-  border-radius: 25px;
+input:hover {
+  border-radius: 10px;
 }
-
-
 
 .card-container {
   flex-wrap: wrap;
   justify-content: center;
   display: flex;
 }
-
