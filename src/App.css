@@ -1,0 +1,54 @@
+@import url("https://fonts.googleapis.com/css2?family=Dancing+Script&display=swap");
+
+* {
+  margin: 0;
+  padding: 0;
+  box-sizing: border-box;
+}
+
+body {
+  font-family: "Dancing Script", cursive;
+  background: rgb(221, 213, 195);
+}
+
+h1 {
+  text-align: center;
+  color: rgb(133, 78, 58);
+  font-size: 2.5rem;
+  margin-top: 3vh;
+}
+
+button {
+  border-radius: 5px;
+  width: 50px;
+  height: 30px;
+  background-color: rgb(236, 189, 101);
+  margin-left: 4px;
+}
+button:hover{
+  height: 25px;
+}
+
+.search {
+  text-align: center;
+  margin: 30px;
+}
+
+
+input {
+  height: 30px;
+  transition: 5s;
+}
+
+input:hover{
+  border-radius: 25px;
+}
+
+
+
+.card-container {
+  flex-wrap: wrap;
+  justify-content: center;
+  display: flex;
+}
+
